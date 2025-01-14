@@ -1,0 +1,131 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    min-height: calc(100vh - 100px); /* Altura del header y footer */
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #092c19;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Estructura del contenedor principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Columnas */
+.left-column, .right-column {
+    width: 25%;
+    padding: 15px;
+}
+
+.middle-column {
+    width: 50%;
+    padding: 15px;
+}
+
+/* Tarjetas de Kdramas */
+.kdrama-card {
+    margin-bottom: 20px;
+    background-color: #eef1f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.kdrama-card img {
+    width: 100%;
+    height: auto;
+}
+
+.kdrama-card p {
+    padding: 10px;
+    font-size: 1rem;
+    color: #050303;
+}
+
+.kdrama-card a {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.kdrama-card a:hover {
+    background-color: #444;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+ul li a:hover {
+    color: #555;
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    background-color: #072c12;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9rem;
+}
